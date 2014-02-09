@@ -49,7 +49,7 @@
       width: 300px;
       margin: 3rem auto;
       border-radius: 6px;
-      border: solid 1px black;
+      border: solid 2px #7e7e7e;
     }
   }
 
@@ -69,6 +69,16 @@
       padding: 10px;
       border-radius: 8px;
     }
+    .btn-lg {
+      margin-top: 5rem;
+      background-color: #fff;
+      border-color: #fff;
+      color: #5b5b5b;
+      padding: 10px 30px;
+    }
+    .btn-success {
+      margin-top: 2rem;
+    }
   }
 
   .stepfour {
@@ -81,6 +91,21 @@
     }
     .thumbnail {
       border-radius: 6px;
+      margin-bottom: 5rem;
+      height: 60px;
+    }
+    .btn-lg {
+      margin-top: 5rem;
+      background-color: #fff;
+      border-color: #fff;
+      color: #5b5b5b;
+      padding: 10px 30px;
+    }
+    .input-group .form-control {
+      height: 50px;
+    }
+    input {
+      font-size: 20px;
     }
   }
 
@@ -95,6 +120,13 @@
     }
     textarea.form-control {
       height: 200px;
+    }
+    .btn-lg {
+      margin-top: 5rem;
+      background-color: #fff;
+      border-color: #fff;
+      color: #5b5b5b;
+      padding: 10px 30px;
     }
   }
 
@@ -114,10 +146,16 @@
       background-color: #e5e5e5;
       padding: 5px;
     }
+    .col-md-4 {
+      margin-bottom: 2rem;
+    }
   }
 
   .stepseven {
-    background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
+    background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png');
+    .thumbnail {
+      background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png');
+    }
   }
 
   .generate {
@@ -126,6 +164,12 @@
     background-position: center;
     .col-md-4 {
       margin-top:20rem;
+    }
+    .btn-success {
+      width: 300px;
+      height: 75px;
+      font-size: 30px;
+      border-radius: 8px;
     }
   }
 }
