@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+.center {
+  text-align: center;
+}
+
 .interface {
 
   .has-padding {
@@ -20,7 +24,7 @@
     font-size: 40px;
   }
   h2, h3, h4, p {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: 300;
     line-height: 1.1;
   }
@@ -50,6 +54,10 @@
     background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
   }
 
+  .steptwo .thumbnail > img {
+      margin-bottom: 15px;
+    }
+
   .stepthree {
     background-color: #ffc966;
     height: 800px;
@@ -63,20 +71,38 @@
     height: 800px;
     h4 {
       font-size: 22px;
+      font-weight: 400;
+      color: #5e5e5e;
     }
     .thumbnail {
-      background-color: #e5e5e5;
+      background-color: #ffc966;
+      border-radius: 6px;
     }
   }
 
   .stepfive {
     height: 800px;
+    background-color: #ffc966;
+    h4 {
+      font-size: 25px;
+      font-weight: 500;
+      margin-top: 40px;
+      color: #5e5e5e;
+    }
+    textarea.form-control {
+      height: 200px;
+    }
   }
 
   .stepsix {
     height: 800px;
+    background-color: #5e5ea5;
+    h2 {
+      color: #fff;
+    }
   }
 
   .stepseven {
+    background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
   }
 }
