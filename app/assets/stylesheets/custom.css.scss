@@ -37,15 +37,19 @@
 
   .stepone {
     height: 800px;
-    background-image: url('https://dl.dropboxusercontent.com/s/q72fos982hdfb87/websitebackground.jpg');
+    background-image: url('https://dl.dropboxusercontent.com/s/salzsuqdza9z1cs/laptop.png');
     background-position: center;
     h2 {
-      color: #191919;
+      color: #000;
+      margin-top: 8rem;
+      font-size: 30px;
     }
     #q2 {
-      height: 45px;
+      height: 40px;
       width: 300px;
-      margin: 5rem auto;
+      margin: 3rem auto;
+      border-radius: 6px;
+      border: solid 1px black;
     }
   }
 

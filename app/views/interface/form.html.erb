@@ -3,7 +3,7 @@
   <section class="stepone">
     <div class="form-group center max-width has-padding">
       <div class="row">
-        <h2><%= label_tag :q2, "Step 1: What's the name of your website?" %></h2>
+        <h2><%= label_tag :q2, "What's the name of your website?" %></h2>
       </div>
       <div class="row">
         <div class="col-md-4 col-md-offset-4">
@@ -74,30 +74,78 @@
             <%= image_tag "https://dl.dropboxusercontent.com/s/79zh97x9b61uhb5/product.jpg" %>
             <h3 class="feature center">Products</h3>
             <p class="center">Etsy, Ebay</p>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-          </form>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>            
+
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="thumbnail">
             <%= image_tag "https://dl.dropboxusercontent.com/s/22mr353j1vzhhgg/user.png" %>
             <h3 class="feature center">Users</h3>
             <p class="center">Ok Cupid</p>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
+            
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>     
           </div>
         </div>
+
         <div class="col-md-4">
           <div class="thumbnail">
             <%= image_tag "https://dl.dropboxusercontent.com/s/w2bmlain72ghr5w/services.png" %>
             <h3 class="feature center">Services</h3>
             <p class="center">Taskrabbit</p>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
-            <%= check_box_tag "features", "reviews", false, class: "form-control form-group" %>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon">
+                <input type="checkbox">
+              </span>
+              <input type="text" class="form-control">
+            </div>     
           </div>
         </div>
       </div>
