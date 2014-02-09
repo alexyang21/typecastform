@@ -73,13 +73,13 @@
 
   .stepfour {
     height: 800px;
+    background-color: #ffc966;
     h4 {
       font-size: 22px;
       font-weight: 400;
       color: #5e5e5e;
     }
     .thumbnail {
-      background-color: #ffc966;
       border-radius: 6px;
     }
   }
@@ -103,6 +103,9 @@
     background-color: #5e5ea5;
     h2 {
       color: #fff;
+    }
+    li {
+      text-align: left;
     }
   }
 
