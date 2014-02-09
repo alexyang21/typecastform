@@ -1,5 +1,11 @@
 Typecastform::Application.routes.draw do
-  root 'interface#form'
+  root 'interface#form1'
+  get 'form2' => 'interface#form2'
+  get 'form3' => 'interface#form3'
+  get 'form4' => 'interface#form4'
+  get 'form5' => 'interface#form5'
+  get 'form6' => 'interface#form6'
+  get 'form7' => 'interface#form7'
   get "interface/thanks"
 
   # The priority is based upon order of creation: first created -> highest priority.
