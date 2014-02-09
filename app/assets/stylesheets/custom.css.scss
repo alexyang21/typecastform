@@ -73,13 +73,13 @@
 
   .stepfour {
     height: 800px;
+    background-color: #ffc966;
     h4 {
       font-size: 22px;
       font-weight: 400;
       color: #5e5e5e;
     }
     .thumbnail {
-      background-color: #ffc966;
       border-radius: 6px;
     }
   }
@@ -104,9 +104,28 @@
     h2 {
       color: #fff;
     }
+    li {
+      text-align: left;
+      color: #5e5e5e;
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .thumbnail {
+      background-color: #e5e5e5;
+      padding: 5px;
+    }
   }
 
   .stepseven {
     background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
+  }
+
+  .generate {
+    height: 800px;
+    background-image: url('https://dl.dropboxusercontent.com/s/salzsuqdza9z1cs/laptop.png');
+    background-position: center;
+    .col-md-4 {
+      margin-top:20rem;
+    }
   }
 }
